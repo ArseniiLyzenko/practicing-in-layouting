@@ -1,0 +1,211 @@
+:root {
+  --gray-font-color: #1b2733;
+  --dark-font-color: #47525d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  color: var(--gray-font-color);
+}
+
+/*==============================*/
+/*          HEADER-NAV          */
+/*==============================*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  transition: background-color 250ms;
+  z-index: 1;
+}
+
+#logo-box {
+  /*display: flex;*/
+  margin: 25px 25px;
+}
+
+#logo-box > a {
+  text-decoration: none;
+}
+
+#logo-img {
+  height: 31px;
+  width: 34px;
+}
+
+#logo-brand-img {
+  margin-left: 2px;
+  height: 25px;
+  width: 212px;
+}
+
+header > nav {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--gray-font-color);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.drop-menu-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.pop-wrapper {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 50px;
+  border: 1px solid rgba(99, 114, 130, 0.15);
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.pop-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 30px;
+}
+
+.pop-arrow {
+  background-color: #fff;
+  position: absolute;
+  top: -9px;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  border-top: 1px solid rgba(99, 114, 130, 0.15);
+  border-left: 1px solid rgba(99, 114, 130, 0.15);
+}
+
+#header-nav-try30days {
+  border: 1px solid #c1c7cd;
+}
+
+/*=====================================*/
+/*          END of HEADER-NAV          */
+/*=====================================*/
+
+/*============================*/
+/*          HERO IMG          */
+/*============================*/
+
+#hero-section {
+  height: 700px;
+  background-image: url("../img/background--homepage-vflnR_kP-.jpg");
+  background-color: #b8d3e6;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#cont-1 {
+  height: 550px;
+  width: 990px;
+  display: flex;
+  align-items: center;
+}
+
+#cont-2 {
+  padding: 0 50px;
+}
+
+#cont-2 > h2,
+#cont-2 > p {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  color: var(--dark-font-color);
+}
+
+#cont-2 > h2 {
+  font-size: 47px;
+  line-height: 61px;
+}
+
+#cont-2 > p {
+  font-size: 21px;
+  line-height: 32px;
+}
+
+#cont-3 {
+  display: flex;
+}
+
+#cont-3 > a {
+  text-decoration: none;
+  font-size: 21px;
+  position: relative;
+}
+
+#cont-3 > a:hover {
+  background-color: #3398ea;
+}
+
+#cont-3 > a::after {
+  content: "No credit card needed";
+  position: absolute;
+  color: #47525d;
+  font-size: 15px;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#cont-4 {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+#cont-4 > p {
+  /*margin: 0;*/
+}
+
+#cont-4 > p > a {
+  text-decoration: none;
+  color: #0070e0;
+  border-bottom: 1px solid #0070e0;
+}
+
+#cont-4 > p > a:hover {
+  color: #3398ea;
+}
+
+/*===================================*/
+/*          END of HERO IMG          */
+/*===================================*/
+
+/*=================================*/
+/*          OTHER CONTENT          */
+/*=================================*/
+
+#pusher {
+  height: 1024px;
+}

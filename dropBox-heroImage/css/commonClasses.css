@@ -1,0 +1,92 @@
+:root {
+  --primary-blue-color: #0070e0;
+  --primary-blue-hover-color: #3398ea;
+}
+
+.fade-out-300 {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.fade-in-300 {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+/*============================================================================*/
+
+.blue {
+  border-color: var(--primary-blue-color);
+  background-color: var(--primary-blue-color);
+  color: #fff;
+}
+
+.blue:hover {
+  background-color: var(--primary-blue-hover-color);
+}
+
+/*============================================================================*/
+
+.transparent {
+  border-color: transparent;
+  color: var(--primary-blue-color);
+  background-color: transparent;
+}
+
+.transparent:hover {
+  border-color: var(--primary-blue-color) !important;
+}
+
+/*============================================================================*/
+
+.b-white {
+  background-color: #fff;
+}
+
+.b-trans {
+  background-color: transparent;
+}
+
+/*============================================================================*/
+
+.style-btn {
+  padding: 0.7em 1.3em;
+  border-radius: 0.25em;
+}
+
+.style-link {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+/*============================================================================*/
+
+.mar-y-10 {
+  margin: 10px 0;
+}
+
+.mar-r-5 {
+  margin-right: 5px;
+}
+
+/*============================================================================*/
+
+.drop-menu-arrow {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #637282;
+  position: relative;
+  margin-left: 5px;
+  transition: transform 250ms;
+}
+
+/*============================================================================*/
+
+.rot-180 {
+  transform: rotate(180deg);
+}

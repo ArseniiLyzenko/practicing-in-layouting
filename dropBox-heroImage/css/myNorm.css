@@ -1,0 +1,11 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+/*Average finger size*/
+a, button {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+/* 45-90 characters per line OR ~65 characters per line */
